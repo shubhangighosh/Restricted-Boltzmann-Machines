@@ -3,7 +3,7 @@ RBMs were trained on a dataset of 60000 images to obtain hidden representations.
 RBMs were trained using:  
 1. Constrastive Divergence  
 2. Gibbs Sampling  
-T-SNE plots of hidden representations were generated for various experiments.
+T-SNE plots of hidden representations were generated for various experiments.  
 The results of the conducted experiments can be found [here](https://github.com/shubhangighosh/Restricted-Boltzmann-Machines/blob/master/Report.pdf).
   
 To test, run :   
