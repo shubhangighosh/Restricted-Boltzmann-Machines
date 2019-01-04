@@ -1,15 +1,20 @@
 # Restricted-Boltzmann-Machines
 RBMs were trained on a dataset of 60000 images to obtain hidden representations.  
+RBMs were trained using:  
+1. Constrastive Divergence  
+2. Gibbs Sampling  
+T-SNE plots of hidden representations were generated for various experiments.
+The results of the conducted experiments can be found [here](https://github.com/shubhangighosh/Restricted-Boltzmann-Machines/blob/master/Report.pdf).
   
 To test, run :   
 
 python train.py -lr 		<learning rate>   
-				-batch_size <batch size>  
-				-method 	<cd or gibbs>  
-				-k			<k for cd>  
-				-r 	 		<r for cd>  
-				-n			<num hidden units>  
-				-p 			<momentum>  
+&nbsp;&nbsp;				-batch_size <batch size>  
+&nbsp;&nbsp;				-method 	<cd or gibbs>  
+&nbsp;&nbsp;				-k			<k for cd>  
+&nbsp;&nbsp;				-r 	 		<r for cd>  
+&nbsp;&nbsp;				-n			<num hidden units>  
+&nbsp;&nbsp;				-p 			<momentum>  
   
 
 
